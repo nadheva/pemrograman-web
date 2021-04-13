@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+    background-image: url(krusty.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+input[type="submit"]{
+    margin-bottom: 28px;
+    width: 100px;
+    height: 40px;
+    background: purple;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+ul li a:hover{
+    background-color: black;
+}
+
+.active{
+    background-color: purple;
+    color: black;
+}
+
+h1{
+    color:rgb(221, 77, 20);
+    font-size: 48px;
+    text-decoration: underline;
+    text-justify: auto;
+}
+
+ul{ 
+    list-style-type: none;
+    float: left;
+    margin: 5px;
+    
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    
+}
+
+ul li a:hover{
+    background-color: black;
+}
+

@@ -1,0 +1,35 @@
+body{
+    background-image: url(krusty.png);
+}
+
+.tabel1{
+    font-family: sans-serif;
+    color: #444444;
+    border-collapse: collapse;
+    width: 300px;
+    border: 1px solid #f2f5f7;
+    margin-top: 50px;
+}
+
+h1{
+    margin-top: 140px;
+    color: #164feb;
+}
+
+.tabel1 tr th{
+background: #335bdf;
+    color: #ffffff;
+    font-weight: normal;
+    width: 1000px;
+
+}
+
+.tabel1 th, td{
+    padding: 8px 20px;
+    text-align: center;
+
+}
+
+.tabel1 tr{
+    background: rgb(218, 214, 10);
+}
